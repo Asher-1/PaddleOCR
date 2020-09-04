@@ -175,7 +175,6 @@ def main(image_dir, args):
                 boxes,
                 txts,
                 scores,
-                draw_txt=True,
                 drop_score=drop_score)
 
             if args.inference_result != "":
